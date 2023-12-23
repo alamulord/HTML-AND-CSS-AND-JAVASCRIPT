@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    overflow-x: hidden !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+}
+.first-small-header-top{
+    background-color: hsla(0, 5%, 43%, 0.844);
+    padding: .5rem;
+    font-size: small;
+}
+.first-small-header-top .container .row .contact{
+    padding-left: 3rem;
+}
+.contact a {
+    padding-inline: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+.contact a i{
+    padding-right: .5rem;
+}
+.container::after{
+    display: none;
+    bottom: 0;
+}
+
+/* after head */
+.header {
+    position: relative;
+    top: auto;
+    left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem 7%;
+    text-transform: capitalize;
+    background: rgb(237, 237, 237);
+    /* box-shadow: 0px 0px 3px grey; */
+}
+
+.header .right, .active{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.header .logo{
+    height: 3.5rem;
+}
+
+.navbar a {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    /* justify-content: space-between; */
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.new{
+    background-color: lightcoral;
+    color: white;
+    font-size: .7rem;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: .4rem;
+    font-weight: 600;
+    border-radius: 30px;
+    
+}
+
+.under{
+    margin-right: .5rem;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid lightcoral;
+}
+.below{
+    padding-bottom: .1rem;
+    border-bottom: 2px solid lightcoral;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    text-transform: capitalize;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+.navbar a:hover:not(.under,.below), .dropdown:hover .dropbtn {
+    border-bottom: 2px solid lightcoral;
+    margin: 0px 3px 0px 3px;
+    /* transition: ease-in-out 0.3s; */
+}
+
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(237, 235, 235);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,3px,0.2);
+    z-index: 1;
+}

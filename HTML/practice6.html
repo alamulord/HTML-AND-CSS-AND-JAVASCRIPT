@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar</title>
+</head>
+<style>
+    ul.side{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 25%;
+        height: 100%;
+        position: fixed;
+        background-color: grey;
+        overflow: auto;
+    }
+
+    ul.side li a {
+        display: block;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+    }
+    ul.side li a:hover:not(.active){
+        background-color: darkgray;
+    }
+    ul.side li a.active{
+        background-color: green;
+    }
+    ul.side li a.active:hover{
+        background-color: lightgreen;
+    }
+    div.content{
+        margin-top: 0;
+        margin-left: 25%;
+        padding: 20px;
+        height: 1000px;
+    }
+    div.hed{
+        margin-top: -2%;
+    }
+    @media screen and (max-width: 900px) {
+        ul.side{
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+        ul.side li a {
+            float: left;
+            padding: 15px;
+        }
+        div.content{
+            margin-left: 0;
+        }
+       
+    }
+    @media screen and (max-width:400px){
+        ul.side li a {
+            text-align: center;
+            float: none;
+        }
+    }
+</style>
+<body>
+    <ul class="side">
+        <li><a href="#" class="active">Bag</a></li>
+        <li><a href="#">Book</a></li>
+        <li><a href="#">Pen</a></li>
+        <li><a href="#">Box</a></li>
+    </ul>
+    <div class="content">
+        <div class="hed">
+            <h1>This is a responsive side navigation bar</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Molestias, maiores dolores voluptatem suscipit quibusdam soluta dolorum? Nam corporis iure iusto ullam aperiam ipsa inventore, fugiat, soluta cupiditate cumque dolores incidunt?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Distinctio, molestias veritatis blanditiis ullam voluptatum quis earum nulla ad magnam illo fugit impedit nihil itaque! Vitae nostrum at ipsa quibusdam veniam?</p>
+            <h3>Please resize your browser to see how it works</h3>
+        </div>
+    </div>
+</body>
+</html>

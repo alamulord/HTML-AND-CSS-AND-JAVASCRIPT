@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="251px" height="170px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 84.59 57.29"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID1" horiz-adv-x="584" font-variant="normal" fill-rule="nonzero" font-weight="700">
+	<font-face 
+		font-family="Humnst777 Cn BT">
+		<font-face-src>
+			<font-face-name name="Humnst777 Cn BT Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="C" horiz-adv-x="536" d="M502.212 675.746l-4.98494 -107.871c-19.1634,12.3398 -38.858,21.329 -59.0021,26.8451 -20.1849,5.51612 -43.843,8.33548 -70.8515,8.33548 -60.5139,0 -107.83,-22.1871 -142.03,-66.3569 -34.1591,-44.3333 -51.3204,-105.828 -51.3204,-184.484 0,-83.0279 17.815,-147.546 53.486,-193.35 35.6709,-45.8451 85.5203,-68.8494 149.712,-68.8494 21.4925,0 42.4946,2.98279 63.1698,8.98924 20.6344,6.00645 41.3096,15.1591 61.8214,27.172l3.84086 -110.159c-22.8408,-8.86666 -46.4989,-15.3634 -71.015,-19.6946 -24.6795,-4.16774 -50.6666,-6.33333 -78.0021,-6.33333 -95.3268,0 -171.858,32.3613 -229.512,97.0021 -57.6946,64.5182 -86.501,151.019 -86.501,259.054 0,110.322 28.1527,197.845 84.6623,262.363 56.5096,64.4774 132.673,96.6752 228.531,96.6752 23.9849,0 48.3376,-2.36989 72.6494,-7.02795 24.5161,-4.8215 49.5225,-12.1763 75.3462,-22.3097z"/>
+   <glyph unicode="F" horiz-adv-x="449" d="M73.9978 694.051l343.879 0 0 -95.9806 -218.847 0 0 -199.03 210.021 0 0 -96.0214 -210.021 0 0 -303.019 -125.032 0 0 694.051z"/>
+   <glyph unicode="T" horiz-adv-x="471" d="M18.0193 694.051l435.038 0 0 -99.9849 -155.024 0 0 -594.066 -126.013 0 0 594.066 -154.002 0 0 99.9849z"/>
+   <glyph unicode="U" horiz-adv-x="606" d="M69.9935 694.051l125.032 0 0 -445.866c0,-59.0021 8.66236,-100.679 25.8236,-125.359 17.3247,-24.4752 45.6817,-36.815 85.5203,-36.815 39.6752,0 67.9913,12.1763 84.9892,36.6516 17.1613,24.3527 25.6602,66.1935 25.6602,125.522l0 445.866 119.026 0 0 -431.688c0,-93.1612 -19,-162.011 -57.1634,-206.18 -38,-44.1699 -96.5117,-66.1935 -175.535,-66.1935 -79.473,0 -138.148,22.0236 -176.148,66.1935 -38.2043,44.1699 -57.2042,113.019 -57.2042,206.18l0 431.688z"/>
+  </font>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" fill-rule="nonzero" font-style="normal" font-weight="700">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="/" horiz-adv-x="277" d="M-1.96824 -12.0131l177.956 740.059 103.027 0 -178.974 -740.059 -102.009 0z"/>
+   <glyph unicode="&lt;" horiz-adv-x="584" d="M537.059 81.9875l-491.042 213.385 0 118.162 491.042 212.502 0 -138.999 -342.542 -130.99 342.542 -136.012 0 -138.048z"/>
+   <glyph unicode="&gt;" horiz-adv-x="584" d="M46.0161 81.0373l0 137.981 342.542 135.198 -342.542 133.84 0 136.963 491.042 -212.638 0 -117.348 -491.042 -213.995z"/>
+  </font>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_709490374224">
+   <g>
+    <ellipse fill="red" cx="26.53" cy="30.35" rx="26.53" ry="26.94"/>
+    <ellipse fill="white" cx="28.07" cy="28.31" rx="26.53" ry="26.94"/>
+    <ellipse fill="#2C3294" cx="30.54" cy="26.94" rx="26.53" ry="26.94"/>
+   </g>
+   <text x="14.99" y="18.66"  fill="#FFFFCC" font-weight="bold" font-size="14.22px" font-family="Arial">&lt;/&gt;</text>
+   <g transform="matrix(1.05988 0 0 1 -116.255 -162.165)">
+    <text x="125.5" y="201.15"  fill="#FFFFCC" font-weight="bold" font-size="23.62px" font-family="Humnst777 Cn BT">FUT </text>
+   </g>
+   <line fill="none" stroke="red" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.61313" x1="78.42" y1="24.22" x2="71.54" y2= "37.99" />
+   <line fill="none" stroke="red" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.61313" x1="82.89" y1="38.13" x2="78.47" y2= "24.25" />
+   <text x="56.7" y="39.44"  fill="red" font-weight="bold" font-size="23.62px" font-family="Humnst777 Cn BT">C</text>
+  </g>
+ </g>
+</svg>

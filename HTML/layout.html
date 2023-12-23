@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Layout</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 0px;;
+            padding: 12px;
+            background: #f1f1f1;
+        }
+        header{
+            background-color: darkcyan;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        header+p{
+            font-size: 15px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        .navbar{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+            width: 100%;
+        }
+        .navbar li a{
+            float: right;
+        }
+        .navbar li a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            text-align: center;
+        }
+        li a:hover{
+            background-color: gray;
+        }
+        .active{
+            background-color: green;
+            float: left;
+        }
+        .column-left{
+            width: 75%;
+            float: left;
+        }
+        .column-right{
+            width: 25%;
+            float: left;
+            padding-left: 20px;
+        }
+        .blog{
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        div.fake-image{
+            background-color: darkcyan;
+            width: 100%;
+            padding: 20px;
+        }
+        
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .footer{
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: darkcyan;
+        }
+        /* trying to make my columns stack ontop each other */
+        @media screen and (max-width: 800px) {
+            .column-left, .column-right{
+                width: 100%;
+                padding: 0;
+            }
+        }
+        /* this is for the navbar  */
+        @media screen and (max-width: 400px) {
+            .navbar a, .active{
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Layout</h1>
+        <p>See the responsiveness of this Layout</p>
+    </header>
+    <ul class="navbar">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+    <div class="row">
+        <div class="column-left">
+            <div class="blog">
+                <h2>MY HEADINDS</h2>
+                <h5>Title description, Sep 24, 2023</h5>
+                <div class="fake-image" style="height: 200px;">
+                    image
+                </div>
+                <p>Some text...</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, eum esse. Perferendis, illo recusandae? Molestiae praesentium tempore mollitia accusamus, repellendus reiciendis placeat rerum error doloribus in, debitis assumenda dolore iure.</p>
+            </div>
+        
+       
+            <div class="blog">
+                <h2>MY HEADINDS</h2>
+                <h5>Title description, Sep 24, 2023</h5>
+                <div class="fake-image" style="height: 200px;">
+                    image
+                </div>
+                <p>Some text...</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, eum esse. Perferendis, illo recusandae? Molestiae praesentium tempore mollitia accusamus, repellendus reiciendis placeat rerum error doloribus in, debitis assumenda dolore iure.</p>
+            </div>
+        </div>
+        <div class="column-right">
+            <div class="blog">
+                <h2>My Story</h2>
+                <div class="fake-image"
+                style="height: 100px;">
+                    image
+                </div>         
+                <p>Some text... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, eum esse.</p>
+            </div>
+        
+            <div class="blog">
+                <h2>Recent Post</h2>     
+                <div class="fake-image">
+                    image
+                </div>       
+                <div class="fake-image">
+                    image
+                </div>       
+                <div class="fake-image">
+                    image
+                </div>       
+            </div>
+        
+            <div class="blog">
+                <h2>Subcribe Me</h2>
+                <p>Follow me if you can</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+</body>
+</html>
